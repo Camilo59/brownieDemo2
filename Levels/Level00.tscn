@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1rutt63ufviy"]
+
+[ext_resource type="Material" uid="uid://b8wodbjrw88p8" path="res://Materials/redColor.tres" id="1_c6hdb"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_3m0li"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = ExtResource("1_c6hdb")
+mesh = SubResource("PlaneMesh_3m0li")
